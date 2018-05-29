@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic-ext');
+
+body {
+    background-color: white;
+}
+
+#myblock {
+    padding-top: 30px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.navbar-toggler {
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+.nav-link {
+    margin: 40px;
+}
+
+#navbarNav {
+    font-size: 20px;
+}
