@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic-ext');
 
 body {
@@ -27,3 +28,34 @@ body {
 #navbarNav {
     font-size: 20px;
 }
+=======
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic-ext');
+
+body {
+    background-color: white;
+}
+
+#myblock {
+    padding-top: 30px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.navbar-toggler {
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
+
+#navbarNav {
+    font-size: 20px;
+}
+>>>>>>> d9499f5dc2025d7cf679e86cea46c16354bc5e9b
