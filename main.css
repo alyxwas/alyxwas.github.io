@@ -5,7 +5,7 @@ body {
 }
 
 #myblock {
-    padding-top: 30px;
+    padding-top: 20px;
     font-family: 'PT Sans', sans-serif;
 
 }
@@ -21,7 +21,7 @@ body {
 }
 
 .nav-link {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 #navbarNav {
