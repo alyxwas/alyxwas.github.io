@@ -1,109 +1,300 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="aw.png"/>
+<head>
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CDN-->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
 
-    <title>Alyxwas Portfolio</title>
-  </head>
-  <body>
-    <div class="col-lg-12">
-    <div class="animated fadeIn">
-    <div class ="mymenu" id="myblock">
-        <nav class="navbar navbar-expand-lg navbar-light bg-black">
-            <a class="navbar-brand" href="./"><img src="./assets/img/pt.png" width="140" style="margin-right: 100px; " draggable="false" ></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav" >
-              <ul class="navbar-nav" style  >
-                <li class="nav-item active">
-                  <a class="nav-link" href="./"><b><i class="fas fa-align-justify"></i> Домой</b><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#"><i class="far fa-user-circle" onclick="window.scrollBy({ bottom: 100, behavior: 'smooth' })"></i><b> О себе</b></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="price.html"><i class="fas fa-money-bill-alt"></i><b>   Прайс-лист</b></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="https://vk.com/finnese"> <i class="fab fa-vk"></i> <b>VKonakte</b></a></li>
-              </ul>
-            </div>
-          </nav>
-    </div>
-  </div>
-  </div>
-</div>
-  <div class="heading" style="box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */">
-    <div class="animated shake">
-    <div class="container">
-    <div class="row">
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4">
-      <center><p class="text_welcome_header" draggable="false" ng-selected="false"><b>Alyxwas Studio</b></p></center>
-    </div>
-    <div class="col-sm-4"></div></div>
-  </div>
-  </div>
-  </div>
-  <div class="container">
-  <div class="content">
-    <div class="animated bounceIn">
-    <div class="row">
-      <div class="col-sm-2"></div>
-      <div class="col-sm-8"><img src="./assets/img/admit.png" alt="" width="200px;" class="rounded-circle" style="box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */">
-        <br><br>
-        <h2><b>Алексей Ярченко</b></h2>
-        <div class="manage" draggable="false" style="user-select: none;">
-        <span class="badge badge-pill badge-warning" id="about_me">Веб-дизайнер
-        </span> <span class="badge badge-pill badge-danger" id="about_me">Копирайтер</span>
-        <br></div>
-        <p id="about_me2">С 2015 начал заниматся дизайном, работал в таких программах как Adobe Photoshop, Adobe Illustrator.
-          Увлекался первое время каллиграфией. 
-          <br><br> 
-          В набор моих навыков входит:
-          <div style="border: solid 1px lightgray; padding: 20px; background-color: #f9f9f9; border-radius: 10px;">
+    <!-- Connect CSS file -->
 
-         
-          <ul class="list-unstyled">
-              <li><b>Разработка фирменного дизайна</b></li>
-              <li> Создание логотипов с нуля</li>
-              <li> Создание дизайна сайта с нуля</li>
-              <li> Верстка сайтов</li>
-              <li> <b>Услуги копирайта и рерайта, а именно:</b>
-                <ul>
-                  <li>Написание текстов на заказ</li>
-                  <li>Перепись ваших текстов</li>
-                  <li>Исправление построения текста</li>
-                  <li>Допись текстов</li>
-                </ul>
-              </li>
-            </ul> 
-          </div>
+    <link rel="stylesheet" href="./assets/lead.css">
+
+    <!---->
+        <!-- JQuery -->
     
-        </p>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="scroll.min.js"></script>
+        <!-- End of Jquery-->
+    
+    <!-- End of Boostrap CDN -->
 
-      <div class="col-sm-2"></div>
+
+    <!---->
+    <meta charset="UTF-8">
+    <!-- Compibility for Boostrap CDN and Osel & Edge -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Title of the website -->
+    <title>Ambrosian.art</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- FA Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+
+</head>
+<body>
+    
+    <div class="container-fluid" id="first-block">
+      
+      <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-none">
+              <a class="navbar-brand" href="#"><img src="./img/svg/ambrosian-logo.svg" alt="" width="40px" draggable="false">  <span class="text-white"></span></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link active text-white scroll" href="#"> Домашняя</a>
+                  <a class="nav-item nav-link active text-white scroll" href="#intro"> Почему мы</a>
+                  <a class="nav-item nav-link active text-white scroll" href="#our_works"> Наши работы</a>
+                  <a class="nav-item nav-link active text-white scroll" href="#contacts"><b>Связатся с нами</b></a>
+                </div>
+              </div>
+            </nav>
+            
+            <div class="blocks"></div>
+            
+            <div data-aos="fade-down">
+            <div class="row">
+                <div class="col-sm-4 text-white"><img src="./img/des.png" alt="" width="100%"></div>
+                <div class="col-sm-8 text-white">
+
+                  <h1><strong>Ambrosian Design</strong></h1>
+                  <h5><i class="fa fa-hashtag" aria-hidden="true"></i> Веб-дизайн</h5><br>
+                  <span style="font-weight: 100;">
+                      Сделаем прекрасный дизайн для вашего сайта, приложения или продукта.
+                      <br>
+                      <br>
+                      В нашей команде работают <b>высококвалифицированные специалисты</b>
+                      <br>которые точно знают и смогут понять что вам надо.
+                      <br>
+                      <br>
+                      <a href="#intro"><button type="button" class="btn btn-primary btn-lg btn-light scroll" style="color: #2625bc;">Почему стоит выбрать нас?</button></a>
+                      <script>
+                          // When the user scrolls down 20px from the top of the document, show the button
+                          window.onscroll = function() {scrollFunction()};
+                          
+                          function scrollFunction() {
+                              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                                  document.getElementById("myBtn").style.display = "block";
+                              } else {
+                                  document.getElementById("myBtn").style.display = "none";
+                              }
+                          }
+                          
+                          // When the user clicks on the button, scroll to the top of the document
+                          function topFunction() {
+                              document.body.scrollTop = 0;
+                              document.documentElement.scrollTop = 0;
+                          }
+                          </script>
+                  </span>
+                </div>
+            </div>
+            </div>
+            <div class="blocks">
+            <center></center>
+            </div>
+
+        </div>
+
+
+
     </div>
-  </div>
-  </div>
-</div>
-    <!-- -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-  </body>
+
+    <div class="container-fluid" id="second-block">
+    <section id="intro"></section>
+      
+      <div class="container"><div data-aos="fade-up">
+        <div class="blocks blocks_mini"></div>
+        <h2><strong><i class="fa fa-hashtag" aria-hidden="true"></i> Почему мы?</strong></h2>
+        <div class="blocks blocks_mini"></div>
+        <div class="row">
+        <div class="col-sm-3">
+          
+          <img src="./img/plann.png" alt="" width="100%" draggable="false">
+          <br><br>
+          <center><h2><strong>Планирование</strong></h2></center>
+          <br>
+          Мы очень точно спланируем ваш заказ, проведем заранее интервью с вами и поймём что вам надо. А уже только
+          потом будем исполнять ваш заказ, ибо желание заказчика — закон.
+        </div>
+        <div class="col-sm-3">
+
+            <img src="./img/smartphone.png" alt="" width="100%" draggable="false">
+            <br><br>
+            <center><h2><strong>Мобильность</strong></h2></center>
+            <br>
+            Делаем дизайны для всего и сразу под несколько расширений, дабы пользователи
+            вашего продукта не испытывали проблем. Доступность всем - отличный признак качества.
+        </div>
+        <div class="col-sm-3" id="blocked_w2">
+            <img src="./img/profi.png" alt="" width="100%" draggable="false">
+            <br><br>
+            <center><h2><strong>Навыки</strong></h2></center>
+            <br>
+            Дизайнеры занимаются своей работой уже более 5 лет, и с радостью
+            готовы совершенствоватся всё больше и больше. Они очень пунктуальные, и с радостью могут
+            выполнить ваш заказ.
+        </div>
+        <div class="col-sm-3">
+
+            <img src="./img/teamwork.png" alt="" width="100%"  draggable="false">
+            <br><br>
+            <center><h2><strong>Скорость</strong></h2></center>
+            <br>
+            Делаем все в кратчайшие сроки, успеваем к дедлайнам. Обычный срок работы составляет 2-3 дня на обычную работу, и до недели на большую.
+        </div>
+        </div>
+      </div></div>
+      <div class="blocks blocks_mini"></div>
+      <div class="blocks blocks_mini"></div>
+      <div class="blocks blocks_mini"></div>
+    </div>
+    <script type="text/javascript">
+      AOS.init();
+    </script>
+    <div class="container-fluid" id="third-container">
+      <div class="container">
+          <section id="our_works"></section>
+          <div data-aos="fade-up">
+          <div class="blocks blocks_mini"></div>
+          <h2><strong><i class="fa fa-hashtag" aria-hidden="true"></i> Наши работы</strong></h2>
+          <div class="blocks blocks_mini"></div>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="./img/slider/s1.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./img/slider/s2.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./img/slider/s3.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://pulsemarketingagency.com/wp-content/uploads/2016/06/mock-up.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://pulsemarketingagency.com/wp-content/uploads/2016/06/mock-up.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://pulsemarketingagency.com/wp-content/uploads/2016/06/mock-up.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://pulsemarketingagency.com/wp-content/uploads/2016/06/mock-up.png" alt="Second slide">
+                 </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <div class="blocks blocks_mini"></div>
+      </div></div>
+    </div>
+    <div data-aos="fade-down">
+    <div class="container-fluid" id="second-block">
+        <div class="container">
+            <section id="contacts"></section>
+            <div class="blocks blocks_mini"></div>
+            <h2><strong><i class="fa fa-hashtag" aria-hidden="true"></i> Наши контакты</strong></h2>
+            <h6 style="color: lightgray;"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Нажмите <i class="fa fa-mouse-pointer" aria-hidden="true"></i> левой кнопкой мыши либо тапните по картинке для перехода</h6>
+            <br>
+            <div class="row">
+              <div class="col-sm-3">
+                
+                <div class="block_contact">
+
+                    <br><br>
+                    <center>
+                      <img src="./img/telegram.svg" width="60%" alt="">
+                      <br>
+                      <br>
+                      <center><h2><strong>Telegram</strong></h2></center>
+                      <br>
+                      Один из передовых мессенджеров в сфере веба и программирования, а так же просто самый популярный мессенджер.
+                    </center>
+                </div>
+                <br>
+              
+              </div>
+              <div class="col-sm-3">
+                  <div class="block_contact">
+
+                      <br><br>
+                      <center>
+                        <img src="./img/instagram.svg" width="60%" alt="">
+                        <br>
+                        <br>
+                        <center><h2><strong>Instagram</strong></h2></center>
+                        <br>
+                        На данный момент лучший фотосервис и быстрое портфолио в квадратах для дизайнеров разных уровней. 
+                      </center>
+                  </div>
+                  <br>
+                
+              </div>
+              <div class="col-sm-3">
+                  <div class="block_contact">
+
+                      <br><br>
+                      <center>
+                        <img src="./img/at.svg" width="60%" alt="">
+                        <br>
+                        <br>
+                        <center><h2><strong>Mail</strong></h2></center>
+                        <br>
+                        Старый, добрый и хороший способ связи, желательно обращатся по большим и деловым предложениям.  
+                      </center>
+                  </div>
+                  <br>
+                </div>
+              <div class="col-sm-3">
+                  <div class="block_contact">
+
+                      <br><br>
+                      <center>
+                        <img src="./img/vk.svg" width="60%" alt="">
+                        <br>
+                        <br>
+                        <center><h2><strong>VK</strong></h2></center>
+                        <br>
+                        Одна из самых популярных в СНГ социальных сетей, которой пользуется практически каждый 
+                      </center>
+                  </div>
+                  <br>
+                
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="blocks blocks_mini"></div>
+</body>
 </html>

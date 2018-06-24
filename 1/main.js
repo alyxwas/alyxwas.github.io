@@ -1,0 +1,1 @@
+var j = document.getElementsByClassName(#bp-price #fsn).value
